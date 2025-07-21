@@ -31,8 +31,7 @@ function Header() {
             <ul className="navbar-nav">
               <li className="nav-item"><Link className="nav-link text-white" to="/">Inicio</Link></li>
               <li className="nav-item"><Link className="nav-link text-white" to="/sobre-nosotros">Sobre Nosotros</Link></li>
-              <li className="nav-item"><Link className="nav-link text-white" to="/paciente">Paciente</Link></li>
-              <li className="nav-item"><Link className="nav-link text-white" to="/historial">Historial</Link></li>
+              <li className="nav-item"><Link className="nav-link text-white" to="/especialidad">Especialidades</Link></li>
               <li className="nav-item"><Link className="nav-link text-white" to="/contacto">Contacto</Link></li>
             </ul>
             <Link to="/login-paciente" className="btn mt-3 w-100 btn-dark">Iniciar Sesión</Link>

@@ -1,13 +1,13 @@
 import '../styles/Footer.css'
 function Footer() { 
   return (
-    <footer className="text-light py-5 mt-5" style={{ backgroundColor: '#000000ff' }}>
+    <footer className="text-light py-5 mt-5" style={{ backgroundColor: '#000000' }}>
       <div className="container">
         <div className="row">
           <div className="col-md-4 mb-3">
             <h5 className="text-warning">Sobre Clínica Tataje</h5>
-            <p>En Clínica Tataje, nos dedicamos a ofrecerte atención médica de calidad. Contamos con un equipo profesional comprometido con tu salud y bienestar.</p>
-            <p>&copy; 2025 ClínicaTataje. Todos los derechos reservados.</p>
+            <p className="text-light">En Clínica Tataje, nos dedicamos a ofrecerte atención médica de calidad. Contamos con un equipo profesional comprometido con tu salud y bienestar.</p>
+            <p className="text-light">&copy; 2025 ClínicaTataje. Todos los derechos reservados.</p>
           </div>
 
           <div className="col-md-4 mb-3">
